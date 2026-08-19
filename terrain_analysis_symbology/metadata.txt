@@ -1,0 +1,24 @@
+[general]
+name=Terrain Analysis Symbology
+qgisMinimumVersion=3.18
+qgisMaximumVersion=3.99
+description=Symbolize slope/aspect rasters with the Van Zuidam (1983) classification and compass-direction classes, plus an Aspect-Slope Bivariate Overlay (combined hue/saturation raster, with optional hillshade-blended brightness).
+version=1.2.0
+author=Muhammad Fatahillah Mubarak, with Claude (Anthropic)
+email=fatahillah.mubarak@gmail.com
+
+about=Adds three Processing algorithms for terrain-derived raster visualization. "Van Zuidam (1983) Slope Classification Symbology" classifies a slope raster into the 7 standard Van Zuidam geomorphological classes (Flat through Extremely Steep, in Degree or Percent) and applies a Singleband Pseudocolor (Discrete) renderer with class-name legend labels. "Aspect Direction Symbology (Compass Classes)" classifies an aspect raster into 4 or 8 compass-direction classes (N/E/S/W or N/NE/E/SE/S/SW/W/NW), each centered on its true compass direction, using a cyclic HSV color wheel suited to circular data, with an optional compass-rose preview. "Aspect-Slope Bivariate Overlay" combines a Slope raster and an Aspect raster into one new RGB(A) raster (hue=aspect, saturation=slope steepness), following the classic aspect-slope mapping technique of Moellering & Kimerling (1990) and Brewer & Marlow (1993), with an optional Hillshade input (Kennelly & Kimerling, 2001) that blends real relief shading into the brightness channel instead of a flat constant -- see README for references. The first two algorithms only change the input layer's symbology; the third creates a new raster file, since QGIS has no live renderer that can combine two input rasters into one color. Co-developed by Muhammad Fatahillah Mubarak together with Claude (Anthropic) as a coding assistant.
+
+tracker=https://github.com/YOUR-GITHUB-USERNAME/qgis-terrain-analysis-symbology/issues
+repository=https://github.com/YOUR-GITHUB-USERNAME/qgis-terrain-analysis-symbology
+homepage=https://github.com/YOUR-GITHUB-USERNAME/qgis-terrain-analysis-symbology
+
+category=Raster
+tags=raster,symbology,classification,terrain,slope,aspect,van zuidam,geomorphology,compass,direction,color ramp,pseudocolor,bivariate,aspect-slope map,overlay
+
+icon=icon.png
+experimental=True
+deprecated=False
+server=False
+
+hasProcessingProvider=yes
