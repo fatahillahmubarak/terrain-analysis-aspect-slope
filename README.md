@@ -14,7 +14,7 @@ QGIS has no built-in symbology preset for the Van Zuidam (1983) slope classifica
 
 It was originally built as separate trial scripts while producing an AHP + GIS flood-hazard map for Samarinda, Indonesia, then combined into a single plugin once each was individually validated in QGIS.
 
-This plugin is a companion to [Natural Breaks Raster Symbology](https://github.com/YOUR-GITHUB-USERNAME/qgis-natural-breaks-symbology) (a separate plugin), which stays independent because it's a generic statistical classification tool for any raster, not terrain-specific.
+This plugin is a companion to [Natural Breaks Raster Symbology](https://github.com/fatahillahmubarak/raster-natural-breaks-jenks-symbology) (a separate plugin), which stays independent because it's a generic statistical classification tool for any raster, not terrain-specific.
 
 ## Features
 
