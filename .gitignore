@@ -6,3 +6,10 @@ Thumbs.db
 .idea/
 .vscode/
 *.zip
+
+# Development/testing artifacts -- not needed in the published repo
+raster-file/
+trial-legend/
+*.tif
+*.tif.aux.xml
+*.qgz
