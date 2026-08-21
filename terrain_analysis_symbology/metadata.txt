@@ -3,7 +3,7 @@ name=Terrain Analysis Symbology
 qgisMinimumVersion=3.18
 qgisMaximumVersion=3.99
 description=Symbolize slope/aspect rasters with the Van Zuidam (1983) classification and compass-direction classes, plus an Aspect-Slope Bivariate Overlay (combined hue/saturation raster, with optional hillshade-blended brightness).
-version=1.2.0
+version=1.2.1
 author=Muhammad Fatahillah Mubarak, with Claude (Anthropic)
 email=fatahillah.mubarak@gmail.com
 

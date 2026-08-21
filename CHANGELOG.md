@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.2.1] - 2026-08-21
+
+Co-developed by Muhammad Fatahillah Mubarak with Claude (Anthropic) as a coding assistant.
+
+### Fixed
+- Packaging only, no code changes: the plugin ZIP now includes the `LICENSE` file (required by the QGIS Plugin Repository) and all files are packaged with standard non-executable permissions (previously flagged by the repository's automated security scan as "Python file has executable permission").
+
 ## [1.2.0] - 2026-08-19
 
 Co-developed by Muhammad Fatahillah Mubarak with Claude (Anthropic) as a coding assistant.
